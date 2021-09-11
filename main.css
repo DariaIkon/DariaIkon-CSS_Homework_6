@@ -1,249 +1,253 @@
 @font-face {
-    font-family: "YesevaOne Regular";
-    src: url(./fonts/Yeseva_One_regular.ttf);
+  font-family: "YesevaOne Regular";
+  src: url(./fonts/Yeseva_One_regular.ttf);
 }
 @font-face {
-    font-family: "Muller Regular";
-    src: url(./fonts/Muller_regular.ttf);
+  font-family: "Muller Regular";
+  src: url(./fonts/Muller_regular.ttf);
 }
 @font-face {
-    font-family: "Muller Medium";
-    src: url(./fonts/Muller_medium.ttf);
+  font-family: "Muller Medium";
+  src: url(./fonts/Muller_medium.ttf);
 }
 @font-face {
-    font-family: "Muller Bold";
-    src: url(./fonts/Muller_bold.ttf);
+  font-family: "Muller Bold";
+  src: url(./fonts/Muller_bold.ttf);
 }
 body {
-    margin: 0;
+  margin: 0;
 }
 
 /*header*/
 
-
 #header {
-    background: #ffffff;  
+  background: #ffffff;
 }
 #header_logo_wrapper {
-    text-align: center;   
-    border-bottom: 1px solid #ebe1cf;
+  text-align: center;
+  border-bottom: 1px solid #ebe1cf;
 }
 #header_logo_container {
-    width: 1200px;
-    margin: 0 auto;   
-    padding: 50px 0;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 #logo {
-    font-size: 30px;
-    font-family: "YesevaOne Regular", sans-serif;
-    color: rgb(153, 110, 28);
-    text-transform: uppercase; 
-    line-height: 1.833;   
+  font-size: 30px;
+  font-family: "YesevaOne Regular", sans-serif;
+  color: rgb(153, 110, 28);
+  text-transform: uppercase;
+  line-height: 1.833;
 }
 #logo_dscrptn {
-    font-size: 11px;
-    font-family: "Muller Regular", sans-serif;
-    color: rgb(153, 110, 28);
-    text-transform: uppercase; 
+  font-size: 11px;
+  font-family: "Muller Regular", sans-serif;
+  color: rgb(153, 110, 28);
+  text-transform: uppercase;
 
-    margin-top: 10px;
-    text-align: center;
+  margin-top: 10px;
+  text-align: center;
 }
 #header_menu_wrapper {
-    text-align: center;
-    padding: 30px 0;
+  text-align: center;
+  padding: 30px 0;
 }
-#header_menu_container{
-    width: 1200px;
-    margin: 0 auto; 
+#header_menu_container {
+  width: 1200px;
+  margin: 0 auto;
 }
 #header_menu_wrapper a {
-    text-decoration: none;
-    font-size: 12px;
-    font-family: "Muller Medium", sans-serif;
-    color: rgb(153, 110, 28);
-    text-transform: uppercase;
-    line-height: 1.2;      
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Muller Regular", sans-serif;
+  color: rgb(153, 110, 28);
+  text-transform: uppercase;
+  line-height: 1.2;
 }
 #header_menu_wrapper a:hover {
-    color: rgb(230, 169, 54);
+  color: rgb(230, 169, 54);
 }
 #header_menu_wrapper a:not(:last-child) {
-    margin-right: 50px;
+  margin-right: 50px;
 }
 #header_menu_wrapper a:hover {
-    color: #e6a936;
+  color: #e6a936;
 }
 
 /*main_photo*/
 
 #main_photo {
-    background-image: url(./images/main_photo.png);
-    height: 800px;
+  background-image: url(./images/main_photo.png);
+  height: 800px;
+  background-position: center;
 }
 
 /*favorites*/
 
 #favorites {
-    background: #ffffff;
+  background: #ffffff;
 }
 #favorites_container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 130px 0 130px 0;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 130px 0 130px 0;
 }
 #favorites_main {
-    display: inline-block;
-    vertical-align: top;
-    width: 578px;
+  display: inline-block;
+  vertical-align: top;
+  width: 608px;
 }
 #favorites_container h1 {
-    font-family: "YesevaOne Regular", sans-serif;
-    font-size: 45px;
-    color: rgb(153, 110, 28);
-    line-height: 1.222;
-    text-align: left;
+  font-family: "YesevaOne Regular", sans-serif;
+  font-size: 45px;
+  color: rgb(153, 110, 28);
+  line-height: 1.222;
+  text-align: left;
 
-    margin: 0;
-    width: 573px;
+  margin: 0;
+  width: 573px;
 }
 #favorites_dscrptn {
-    font-size: 15px;
-    font-family: "Muller Regular", sans-serif;
-    color: rgb(153, 110, 28);
-    line-height: 1.333;
-    text-align: left;
-    
-    display: inline-block;
-    margin-top: 50px;
-    width: 479px;
+  font-size: 15px;
+  font-family: "Muller Regular", sans-serif;
+  color: rgb(153, 110, 28);
+  line-height: 1.333;
+  text-align: left;
+
+  display: inline-block;
+  margin-top: 50px;
+  width: 479px;
 }
 .favorites_item {
-    display: inline-block;
+  display: inline-block;
+  margin-right: 15px;
 }
 .favorites_item_heading .star {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.favorites_item_heading .star i {
+  color: rgb(153, 110, 28);
+}
+.favorites_item_heading .star i:hover {
+  color: #dc9229;
 }
 .favorites_item_heading_text {
-    font-size: 18px;
-    font-family: "Muller Bold", sans-serif;
-    font-weight: bold;
-    color: rgb(153, 110, 28);
-    line-height: 1.111;
-    text-align: left;
-    display: inline-block;
-    vertical-align: middle;
+  font-size: 18px;
+  font-family: "Muller Bold", sans-serif;
+  font-weight: bold;
+  color: rgb(153, 110, 28);
+  line-height: 1.111;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
 }
 .favorites_item_heading {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 .favorites_item_text {
-    font-size: 15px;
-    font-family: "Muller Regular", sans-serif;
-    color: rgb(153, 110, 28);
-    line-height: 1.333;
-    text-align: left;
+  font-size: 15px;
+  font-family: "Muller Regular", sans-serif;
+  color: rgb(153, 110, 28);
+  line-height: 1.333;
+  text-align: left;
 
-    width: 275px;
-    margin-top: 13px;
+  width: 275px;
+  margin-top: 13px;
 }
 #favorites_photos {
-    display: inline-block;
-    vertical-align: bottom;
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: 0;
 }
 #favorites_photos div {
-    display: inline-block;
-    margin-left: 24px;
+  display: inline-block;
 }
-
+#favorites_photos div:last-child {
+  margin-left: 24px;
+}
 /*happiness_couple*/
 
 #happiness_couple {
-    background: #faf7f2;
+  background: #faf7f2;
 }
 #happiness_couple_container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 120px 0 80px 0; 
-    font-size: 0;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 120px 0 80px 0;
+  font-size: 0;
 }
 #happiness_couple_container h2 {
-    font-size: 45px;
-    font-family: "YesevaOne Regular", sans-serif;
-    color: rgb(153, 110, 28);
-    line-height: 1.222;
-    text-align: left;
+  font-size: 45px;
+  font-family: "YesevaOne Regular", sans-serif;
+  color: rgb(153, 110, 28);
+  line-height: 1.222;
+  text-align: left;
 
-    margin: 0;
+  margin: 0;
 }
 #happiness_couple_list {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 .happiness_couple_item {
-    display: inline-block;
+  display: inline-block;
 }
 .happiness_couple_item:not(:last-child) {
-    margin-right: 24px;
+  margin-right: 24px;
 }
 
 .happiness_couple_name {
-    font-size: 18px;
-    font-family: "MullerMediumItalic";
-    font-style: italic;
-    color: rgb(197, 182, 152);
-    line-height: 1.111;
-    text-align: left;
-    
-    margin-top: 20px;
+  font-size: 18px;
+  font-family: "Muller Regular", sans-serif;
+  font-style: italic;
+  color: rgb(197, 182, 152);
+  line-height: 1.111;
+  text-align: left;
+
+  margin-top: 20px;
 }
- /*footer*/
+/*footer*/
 #footer {
-    background: #f1d2bd;
+  background: #f1d2bd;
 }
 #footer_container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 30px 0 30px 0;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0 30px 0;
 }
 #footer_social {
-    display: inline-block;
-    margin-right: 340px;
+  display: inline-block;
+  margin-right: 340px;
 }
 #footer_social a {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 0;
-    text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0;
+  text-decoration: none;
 }
-#footer_social a:not(:last-child){
-    margin-right: 20px;
+#footer_social a:not(:last-child) {
+  margin-right: 20px;
 }
 #footer_social svg {
-   fill: #996e1c
+  fill: #996e1c;
 }
 #footer_social svg:hover {
-    fill: #644304;
+  fill: #644304;
 }
 #footer_logo {
-    display: inline-block;
-    vertical-align: middle;
-    text-decoration: none;
-    margin-right: 293px;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  margin-right: 293px;
 }
 #footer_info {
-    display: inline-block;
-    vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
 
-    font-size: 11px;
-    font-family: "Muller Regular", sans-serif;
-    font-style: italic;
-    color: rgb(153, 110, 28);
-    line-height: 5;
-
+  font-size: 11px;
+  font-family: "Muller Regular", sans-serif;
+  font-style: italic;
+  color: rgb(153, 110, 28);
+  line-height: 5;
 }
-
-
-
-  
