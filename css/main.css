@@ -73,9 +73,7 @@ body {
 #header_menu_wrapper a:hover {
   color: #e6a936;
 }
-
 /*main_photo*/
-
 #main_photo {
   background-image: url(../images/main_photo.png);
   height: 800px;
