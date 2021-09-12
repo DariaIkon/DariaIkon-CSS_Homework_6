@@ -77,7 +77,7 @@ body {
 /*main_photo*/
 
 #main_photo {
-  background-image: url(/images/main_photo.png);
+  background-image: url(../images/main_photo.png);
   height: 800px;
   background-position: center;
 }
